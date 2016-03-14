@@ -1,0 +1,16 @@
+﻿<Window x:Class="WijkAgentBeta.View.UserPinInfoBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WijkAgentBeta.View"
+        mc:Ignorable="d"
+        Title="Agent" Height="176.471" Width="403.362">
+    <Grid>
+        <Label x:Name="LastUpdateLabel" Content="Voor het Laast bijgewerkt op: " HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="375"/>
+        <Label x:Name="UserCodeLabel" Content="Code:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="NameLabel" Content="Naam: " HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.063,-0.027" Width="192"/>
+        <Label x:Name="AvailabilityLabel" Content="Beschikbaarheid: " HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="192"/>
+
+    </Grid>
+</Window>

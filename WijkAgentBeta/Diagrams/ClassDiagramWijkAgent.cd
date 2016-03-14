@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="WijkAgentBeta.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAcAAAALAAgAIAAACBAAAAAKAGgjIAABBBAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.Alert" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEQAAAAAAAAAAAAAAAEAAACAAAAAAAAAAAAYAAAgA=</HashCode>
+      <FileName>Models\Alert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.AlertController" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAEAAKAQAAAAAAAYIAAAAAIAQAQmAwiACkAICgAQCgI=</HashCode>
+      <FileName>ContentHandling\AlertController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.Connection">
+    <Position X="5.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACABAAAAAAAAIAABAIAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContentHandling\Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.MapController" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIAhECAAQUBAIUwAAAQIIgIDBCAEIgIFAAgIAiAQQoA=</HashCode>
+      <FileName>ContentHandling\MapController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.TweetController" Collapsed="true">
+    <Position X="8" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>PAAQQABIAAAAACGAAAQAAAiACBSAAgAAAAAIAAAQAKw=</HashCode>
+      <FileName>ContentHandling\TweetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.TwitterStream" Collapsed="true">
+    <Position X="11" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAQAAAAAABQAACAAQAIAAYACAAAAAAAAAA=</HashCode>
+      <FileName>ContentHandling\TwitterStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.User" Collapsed="true">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEAAAAAAAAKQAEEAAABBAAAAAAAgA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.UserController" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BQgFACAAAQAAAAAAAEAAAAAAAAQAAABABAAJQgAQAAA=</HashCode>
+      <FileName>ContentHandling\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.Database.dbConnection" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAABAAAAQAAAAAAAAIABAAAAA=</HashCode>
+      <FileName>Database\dbConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.AuthenticationController" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IIAQACAAAAAAAAABQgAAAAAAAAQAAAAAAAEIAAAQAAA=</HashCode>
+      <FileName>ContentHandling\AuthenticationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.arc_reports" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAIIQAAAQAAAQAAAJAAAAAEACAQAAAQIAUAIAAAQAAA=</HashCode>
+      <FileName>ContentHandling\arc_reports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.RSSfeed" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAQAABYAAAIAAAAAQACAAIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContentHandling\RSSfeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.XmlHandler">
+    <Position X="27.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContentHandling\XmlHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.ChatMessage" Collapsed="true">
+    <Position X="27.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAQAAAAAgAAgAAAAAAAAAAAAAAAAIAgA=</HashCode>
+      <FileName>Models\ChatMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.ChatController" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>JBAAAAIAAAAAAAAAAgAgIAggAAQAAAAAUAAIAAAQAAA=</HashCode>
+      <FileName>ContentHandling\ChatController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.MainUserControl">
+    <Position X="10.5" Y="1.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AERAAAIggAIAASAAEAgIhUAACAgACQYIkEoJgEAEEyA=</HashCode>
+      <FileName>View\MainUserControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.BackgroundProcessesController" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAACAAAAAAAAAAIAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContentHandling\BackgroundProcessesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.FeedController" Collapsed="true">
+    <Position X="1" Y="6.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAEAAAAAAAAAAAAAAAAAAAAAACIAEAAAAAAAAAA=</HashCode>
+      <FileName>ContentHandling\FeedController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.HeatmapController">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAQABAAEBAAAAAAAAYAgAEACAEIAIAAgAAAiBAAAA=</HashCode>
+      <FileName>ContentHandling\HeatmapController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.PanicController" Collapsed="true">
+    <Position X="8" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAEAAABQAAAAAAAAAAACAQAAAIAAAQIAAAQAAA=</HashCode>
+      <FileName>ContentHandling\PanicController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.Models.Panic" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAACAAAAAAAAAAAAAACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Panic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.Models.searchWord">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\searchWord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WijkAgentBeta.ContentHandling.TweetMessage" Collapsed="true">
+    <Position X="8" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAQQAAAAAAIAgEAAAAEACACAAAAAAAAAAAAAAAADA=</HashCode>
+      <FileName>Models\TweetMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

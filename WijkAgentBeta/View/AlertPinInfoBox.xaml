@@ -1,0 +1,18 @@
+﻿<Window x:Class="WijkAgentBeta.View.AlertPinInfoBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WijkAgentBeta.View"
+        mc:Ignorable="d"
+        Title="Melding
+        " Height="324.788" Width="300">
+    <Grid>
+        <Label x:Name="ServiceLabel" Content="Service: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="272"/>
+        <Label x:Name="DateLabel" Content="Datum: " HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.783" Width="272"/>
+        <TextBox x:Name="MessageTextBox" HorizontalAlignment="Left" Height="149" Margin="10,110,0,0" TextWrapping="Wrap" Text="Omschrijving gebeurtenissen" VerticalAlignment="Top" Width="272"/>
+        <Button x:Name="deleteButton" Content="Verwijderen" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button1" Content="Opmerking plaatsen" HorizontalAlignment="Left" Margin="157,264,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label x:Name="IdLabel" Content="" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.784,0.783" Width="272"/>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="WijkAgentBeta.View.TwitterPinInfoBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WijkAgentBeta.View"
+        mc:Ignorable="d"
+        Title="Twitter bericht" Height="282" Width="679">
+    <Grid>
+        <Label x:Name="createdByLabel" Content="Geplaatst door:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="30" Width="230"/>
+        <Label x:Name="dateTimeLabel" Content="Datum: " HorizontalAlignment="Left" Margin="406,10,0,0" VerticalAlignment="Top" Width="255"/>
+        <TextBox x:Name="twitterMessageBox" HorizontalAlignment="Left" Height="127" Margin="10,114,0,0" TextWrapping="Wrap" Text="Place Twitter Message Here" VerticalAlignment="Top" Width="651"/>
+
+    </Grid>
+</Window>
